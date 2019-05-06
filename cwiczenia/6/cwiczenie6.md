@@ -130,3 +130,6 @@ Jak widzimy nasz dashboard posiada opis oraz zestaw znaczników, które służą
 ![](src/grafana-cloud-27.jpg "")
 
 ### Jeżeli z jakiegoś powodu nie byłeś w stanie wykonać części nieobowiązkowej ćwiczenia. Nic straconego. Możesz wczytać dashboard. Znajduje się w katalogu "wczytaj". Dokłade informacje jak wczytywać dashboardy znajdziecie w cwiczeniu 3.
+
+[<img src="../images/prev.png">](../../cwiczenia/5/cwiczenie5.md)
+[<img src="../images/next.png">](../../cwiczenia/7/cwiczenie7.md)

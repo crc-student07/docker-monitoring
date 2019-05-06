@@ -23,3 +23,5 @@ Playlisty maja służyć jako monitory czasu rzeczywistego dla zespołów, któr
 [![Grafana playlista](src/grafana-playlista.jpg)](http://www.youtube.com/watch?v=nUkHymxAL9U "Grafana tworzenie playlisty")
 
 Zachęcam was do eksperymentów. Spróbujcie swoich sił i utwórzcie kilka playlist. Każda z nich może być wyświetlana zupełnie inaczej.
+
+[<img src="../images/prev.png">](../../cwiczenia/9/cwiczenie9.md)

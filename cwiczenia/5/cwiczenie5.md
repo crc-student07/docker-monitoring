@@ -83,3 +83,6 @@ Uwaga serwer http://www.ibm.com przekierowywuje cały ruch na https://www.ibm.co
 ![](src/worldping-17.jpg "")
 <br/><br/>
 ![](src/worldping-18.jpg "")
+
+[<img src="../images/prev.png">](../../cwiczenia/4/cwiczenie4.md)
+[<img src="../images/next.png">](../../cwiczenia/6/cwiczenie6.md)

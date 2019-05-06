@@ -295,3 +295,6 @@ To ćwiczenie pokazuje w jaki sposób ograniczać dostęp do obiektów na podsta
 ```
 ~./cwiczenia/9/wykonaj.sh
 ```
+
+[<img src="../images/prev.png">](../../cwiczenia/8/cwiczenie8.md)
+[<img src="../images/next.png">](../../cwiczenia/10/cwiczenie10.md)

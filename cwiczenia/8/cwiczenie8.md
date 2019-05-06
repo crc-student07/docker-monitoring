@@ -140,3 +140,6 @@ Wnioski? Działa?
 ```
 ~./cwiczenia/8/wykonaj.sh
 ```
+
+[<img src="../images/prev.png">](../../cwiczenia/7/cwiczenie7.md)
+[<img src="../images/next.png">](../../cwiczenia/9/cwiczenie9.md)
