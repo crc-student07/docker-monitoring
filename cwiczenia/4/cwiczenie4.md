@@ -129,7 +129,7 @@ Weryfikacji można również dokonać używając do tego przeglądarki (patrz We
 
 z poziomu katalogu domowego zklonowanego repozytorium
 ```
-cd cwiczenia/3
+cd cwiczenia/4
 ./wykonaj.sh
 ```
 

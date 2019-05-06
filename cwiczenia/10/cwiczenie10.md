@@ -24,4 +24,5 @@ Playlisty maja służyć jako monitory czasu rzeczywistego dla zespołów, któr
 
 Zachęcam was do eksperymentów. Spróbujcie swoich sił i utwórzcie kilka playlist. Każda z nich może być wyświetlana zupełnie inaczej.
 
+
 [<img src="../images/prev.png">](../../cwiczenia/9/cwiczenie9.md)

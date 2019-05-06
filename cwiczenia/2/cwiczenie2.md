@@ -112,5 +112,6 @@ Brawo! Udało się Wam utworzyc 2 użytkowników i zapisać ich do organizacji "
 Uwaga!
 Wykonując powyższy skrypt należy pamiętać o 2 parametrach. Z racji, iż w pierwszym ćwiczeniu zmieniliśmy hasło użytkownika "admin" skrypt wymagał parametryzacji.
 
+
 [<img src="../images/prev.png">](../../cwiczenia/1/cwiczenie1.md)
 [<img src="../images/next.png">](../../cwiczenia/3/cwiczenie3.md)

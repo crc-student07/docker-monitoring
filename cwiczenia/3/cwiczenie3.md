@@ -158,5 +158,6 @@ cd cwiczenia/3
 ./wykonaj.sh
 ```
 
+
 [<img src="../images/prev.png">](../../cwiczenia/2/cwiczenie2.md)
 [<img src="../images/next.png">](../../cwiczenia/4/cwiczenie4.md)

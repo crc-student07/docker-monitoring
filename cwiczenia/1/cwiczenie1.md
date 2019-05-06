@@ -94,4 +94,5 @@ Po kliknięciu "Save" powinniśmy zostać przeniesieni do głownego dashboardu g
 
 ```
 
+
 [<img src="../images/next.png">](../../cwiczenia/2/cwiczenie2.md)
