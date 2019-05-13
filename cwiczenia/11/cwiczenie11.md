@@ -22,6 +22,10 @@ Tu znajdziecie ogólny zarys wymagań oraz elementów ćwiczenia:
   * cwiczenie 2
   * cwiczenie 3
 
++ Maszyna Softlayer:
+  * adres IP
+  * wpis w /etc/hosts na komputerze z której się łączymy
+
 ## Co to jest Prometheus oraz jak go używać
 Prometheus to rozbudowany system monitorowania zbudowany w oparciu o jezyk Go. System został zbudowany w firmie Sound Cloud a następnie projekt został przeniesiony do Google. Obecnie to jest częścią CNCF. Więcej informacji na temat Prometheusa znajdziecie pod adresem: https://prometheus.io/. System ten charakteryzuje się przede wszystkim:
 
@@ -63,7 +67,21 @@ Do pliku /etc/prometheus/prometheus.yml dopisz następującą konfigurację:
   - targets: ['exp-mongodb:9001']
 ```
 
-Pamiętaj by zachować właściwe wcięcia (plik yml)!
+
+![](src/think.gif "") Pamiętaj by zachować właściwe wcięcia (plik yml)! Jeżeli z jakiegoś powodu nie jesteś w stanie zmienić konfiguracji pliku /etc/prometheus/prometheus.yml np. pojawi się komunikat read only to zmiany dokonaj w pliku */home/studentvm/lab/prometheus/conf* serwerze gdzie docker jest uruchomiony (maszyna Softlayer)
+
+```
+$ pwd
+/home/studentvm/lab/prometheus/conf
+$ ls -la
+total 20
+drwxrwxr-x. 2 studentvm studentvm 4096 May  7 11:10 .
+drwxrwxr-x. 4 studentvm studentvm 4096 May  7 11:10 ..
+-rw-rw-r--. 1 studentvm studentvm 2480 May  7 11:10 crc-rules-docker.yml
+-rw-rw-r--. 1 studentvm studentvm  203 May  7 11:10 mq-targets.yml
+-rw-rw-r--. 1 studentvm studentvm 2138 May  7 11:10 prometheus.yml
+$
+```
 
 Wyjdź z kontenera wpisując polecenie exit
 
@@ -106,9 +124,9 @@ level=info ts=2019-04-15T13:29:45.624890514Z caller=web.go:416 component=web msg
 W oknie adresu przeglądarki wpisz:
 
 
-http://your-server:9090/
+http://twoj-serwer:9090/
 
-![](src/think.gif "") za your-server należy podstawić adres IP lub nazwę serwera swojego serwra w cloud.
+![](src/think.gif "") za twoj-serwer należy podstawić adres IP lub nazwę serwera swojego serwra w IBM SoftLayer.
 
 #### Weryfikacja obiektów docelowych (targets)
 
@@ -174,15 +192,15 @@ github.
 
 Pliki exporterów są kopiowane bezpośrednio do kontenerów i tam traktowane jako punkty startowe (Entry Points).
 
-Domyślna lokalizacja metryk to */metrics*. Można to dowolnie zmieniać. Jedynym wymogiem jest własne IDE dla języka GO.
+Domyślna lokalizacja metryk to */metrics*. Można to dowolnie zmieniać.
 
 Aby zweryfikować poprawność działania eksporterów należy w przeglądarce otworzyć następujące adresy:
 
 Apache exporter:
-http://your-server:9117/metrics
+http://twoj-serwer:9117/metrics
 
 Mongodb exporter:
-http://your-server:9001/metrics
+http://twoj-serwer:9001/metrics
 
 Jak widać metryki eksponuje wbudowany serwer http.
 
@@ -257,7 +275,7 @@ docker ps | grep vm-apache
 
 W przeglądarce internetowej wpisujemy:
 
-http://your-server:82
+http://twoj-serwer:82
 ![](src/apache-server.jpg "")
 
 Jak zdążyliście zauważyć moduł serwera http jest widoczny i gotowy do użycia.
@@ -272,7 +290,7 @@ exporter.
 ## Weryfikacja - Grafana.
 Logujemy się do grafany:
 
-http://your-server:3000
+http://twoj-serwer:3000
 
 uzytkownik: admin <br/>
 hasło:      crc2019
